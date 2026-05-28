@@ -1,0 +1,23 @@
+body {
+    background-color: rgb(96, 111, 108);
+}
+
+
+
+
+@keyframes fadeAnimation {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+.element {
+  animation-name: fadeAnimation;
+  animation-duration: 3s;
+  animation-timing-function: ease;
+  animation-delay: 0.4s;
+  animation-iteration-count: 1;
+  animation-direction: normal;
+  animation-fill-mode: both;
+}
+
+
